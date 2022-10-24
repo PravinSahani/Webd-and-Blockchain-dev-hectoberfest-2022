@@ -32,8 +32,8 @@ $(function() {
 });
 
 
-var forDark = document.getElementById("for-dark");
-var forLight = document.getElementById("for-light");
+let forDark = document.getElementById("for-dark"); // Replace var to let 
+let forLight = document.getElementById("for-light");//Replace var to let 
 function Black() {
 	document.body.style.backgroundColor = "white";
 	forLight.style.backgroundColor = "#333";
